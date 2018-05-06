@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="QuizApp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>UCL Quiz App</name>
+    <name>UCL Question System App</name>
     <description>
-        This copyright of this app belong to University College London. The main functionality of the app is to record and stores POI of interests as questions 
+        This copyright of this app belong to University College London. The main functionality of the app is to record and stores POI of interests.
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
