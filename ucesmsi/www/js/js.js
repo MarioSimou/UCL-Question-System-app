@@ -163,7 +163,7 @@ infoDepartments.update = function(props,layer){
 
 	// the div's content is updated with the below information
 	this._div.innerHTML = '<h4>UCL Departments</h4>' + 
-	(props ? '<b>Name: </b>' + props.depname+ '<br><b>Founded: </b>' + props.correct + '<br><b>Latitude: </b>' + lat.toFixed(4)+ '\t<b>Longitude: </b>' + lng.toFixed(4) : 'Hover over the POI');
+	(props ? '<b>Name: </b>' + props.depname+'<br><b>Question: </b>'+ props.question + '<br><b>Answer: </b>' + props.correct + '<br><b>Latitude: </b>' + lat.toFixed(4)+ '\t<b>Longitude: </b>' + lng.toFixed(4) : 'Hover over the POI');
 
 };
 

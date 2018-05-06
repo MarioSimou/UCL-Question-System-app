@@ -79,7 +79,7 @@ loadDataLayer = function(data)
 	onEachFeatureFun = function(feature,layer){
 			// bind pop up on the ucl poi
 			var coords = layer.getLatLng();
-			layer.bindPopup('<h4 style="border-bottom:solid black 1px">Information</h4><i><b>Name:</b> </i>' + feature.properties.depname + '<br><i><b>Founded: </b></i>' + feature.properties.correct + '<br><b>Latitude: </b>' + coords.lat + '&#176'+ '<br><b>Longitude: </b>' + coords.lng+ '&#176');
+			layer.bindPopup('<h4 style="border-bottom:solid black 1px">Information</h4><i><b>Name:</b> </i>' + feature.properties.depname +'<br><b>Question: </b>'+ feature.properties.question + '<br><i><b>Answer: </b></i>' + feature.properties.correct + '<br><b>Latitude: </b>' + coords.lat + '&#176'+ '<br><b>Longitude: </b>' + coords.lng+ '&#176');
 			layer.on(
 			{	
 				// events
@@ -105,7 +105,7 @@ loadDataLayer = function(data)
 	controlSearch = new L.Control.Search(
 	{
 		layer: searchLayers,
-		propertyName: 'depname',
+		propertyName: 'question',
 		position: 'topleft',
 		marker: {								//custom L.Marker or false for hide
 					icon: departmentIcon,		//custom L.Icon for maker location or false for hide
