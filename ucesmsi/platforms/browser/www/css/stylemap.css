@@ -1,0 +1,152 @@
+body {
+        margin : 0;
+        padding: 0;
+}
+body, html {
+        height : 100%;
+        width: 100vw;
+}
+.wrap {
+    width: 100%;
+    height:100%;
+    overflow:auto;
+}
+
+.fleft {
+    float:left; 
+    width: 100%;
+    height: 100%;
+}
+.noDisplay {
+	display:none;
+}
+/*
+.fright {
+    float: right;
+    height: 0%;
+    width: 0%;
+}*/
+
+
+.custom{
+    display: block;
+    float: left;
+    width: 33px;
+    height: 33px;
+    border-radius: 4px;
+    color: #0078A8;
+    -webkit-tap-highlight-color: rgba(51, 181, 229, 0.4);
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 1000;
+    position:absolute;
+    
+    left:0;
+    list-style: none;
+    padding-left: 0;
+    overflow-y:auto;
+    overflow-x:hidden;
+    margin-left:10px;
+    border: solid 2px #A5A4A4;
+
+}
+
+.custom:hover{
+    opacity: 0.6;
+}
+
+#clean-map {
+    top:107.5%;    
+    background: url(../img/brush.png) no-repeat 0px 0px #fff;
+}
+
+#geolocation-button {
+    top:177%;    
+    background: url(../img/geolocation.png) no-repeat 2px 2px #fff;
+}
+
+#full-zoom {
+    background: url(../img/arrowCross.png) no-repeat 3px 3px #fff;
+    top: 142.5%;
+}
+
+.geoEnabled {
+  background: url(../img/geolocation.png) no-repeat 2px 2px #EAA8A5;
+
+}
+
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+input[type=button],input[type=reset]{
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor:pointer;
+}
+
+input[type=button],input[type=reset]:hover{
+    background-color: #45a049;
+    }
+
+.buttons {
+    text-align: center;
+    }
+       }
+ 
+label {
+    font-weight: bold;
+
+fieldset {
+    margin:auto;
+    position: absolute;
+    top:0;   
+    left:0;
+    line-height: 1.2;
+    border-radius: 10px;
+    background: #ECECEC
+    padding: 1.5%;
+}
+
+input[type=text],input[type=textarea]{
+    padding:6px;
+    width:100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+input[type=text],input[type= textarea]{
+    width:100%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+#response {
+    color: 'red';
+    top-margin: 4px;
+    font-weight: 'bold';
+    text-align: left;
+} 
+

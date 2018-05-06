@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UCL POI FORM</title>
+	
+</head>
+<body>
+	<div id='form-container'>
+		<form>
+		<fieldset>
+			<legend>UCL Question App</legend>
+		<p>
+			<label for='depname'>For which department is that question related to?
+			<input type= 'text' id='depname' name='depname' placeholder="Specify the department name..." required="">
+			</label>
+		</p>
+		<p>
+			<label for='question'>Specify your question:
+			<input type= 'textarea' id='question' name='quiz_question' row = '4' cols = '50' placeholder="Specify the question that is asked..." required="">
+			</label>
+		</p>
+		<p>
+			<label for='firstanswer'>Answer A:
+				<input type="text" id= 'firstanswer' name="firstanswer" required="">
+			</label>
+		</p>
+		<p>
+			<label for='secondanswer'>Answer B: 
+				<input type="text" id= 'secondanswer' name="secondanswer" required="">
+			</label>
+		</p>
+		<p>
+			<label for='thirdanswer'>Answer C:
+				<input type="text" id= 'thirdanswer' name="thirdanswer" required="">
+			</label>
+		</p>
+		<p>
+			<label for='forthanswer'>Answer D:
+				<input type="text" id= 'forthanswer' name="forthanswer" required="">
+			</label>
+		</p>
+		<p>
+			<label for='correctanswer'>Correct Answer:
+				<input type="text" id= 'correctanswer' name="correctanswer" required="">
+			</label>
+		</p>
+		<div class ='buttons'>
+			<input type='button' id = 'submit' name = 'submitbtn' value = 'Submit'>
+			<input type="reset" id='reset' name="resetbtn" value="Reset" >
+			<input type='button' id='cancel' name='cancelbtn' value='Cancel'>
+		</div>
+		<div id='response'></div>
+		</fieldset>
+		</form>
+	</div>
+	</body>
+</html>

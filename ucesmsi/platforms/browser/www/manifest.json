@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "UCL Quiz App",
+  "short_name": "UCL Quiz App",
+  "version": "QuizApp",
+  "description": "This copyright of this app belong to University College London. The main functionality of the app is to record and stores POI of interests as questions",
+  "author": "PhoneGap Team",
+  "icons": [],
+  "start_url": "index.html"
+}
