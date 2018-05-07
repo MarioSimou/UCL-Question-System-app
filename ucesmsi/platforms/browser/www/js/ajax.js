@@ -126,6 +126,8 @@ loadDataLayer = function(data)
 	 // change the map zoom so that all the data is show
 	 map.addLayer(layerGroup);
 	 map.fitBounds(layerGroup.getBounds());
+
+	 map.setMaxBounds(layerGroup.getBounds()); // constraints the map display so it can only show the layer group
 }
 
 
