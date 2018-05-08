@@ -208,6 +208,15 @@ var a = document.createElement('a') // create a link
 div.appendChild(a); // the link is added to the div
 leafletTopLeft.appendChild(div);  // the div is added as a last the last element of leafletTopLeft element
 
+// Help button - this button loads the user to the documentation file
+var helpDiv = document.createElement('div');
+helpDiv.classList.add('custom');
+helpDiv.id = 'help';
+var a = document.createElement('a');
+a.setAttribute('href', 'http://developer.cege.ucl.ac.uk:31277/ucl-question-system-app-guide.html'); // set the link of the documentation file
+helpDiv.appendChild(a);
+leafletTopLeft.appendChild(helpDiv);
+
 
 // Geolocation Button
 var geoDiv = document.createElement('div'); // create a div element

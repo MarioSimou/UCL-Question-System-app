@@ -20,12 +20,6 @@ body, html {
 .noDisplay {
 	display:none;
 }
-/*
-.fright {
-    float: right;
-    height: 0%;
-    width: 0%;
-}*/
 
 
 .custom{
@@ -40,7 +34,7 @@ body, html {
     box-sizing: border-box;
     cursor: pointer;
     pointer-events: auto;
-    z-index: 1000;
+    z-index: 900;
     position:absolute;
     
     left:0;
@@ -70,6 +64,18 @@ body, html {
 #full-zoom {
     background: url(../img/arrowCross.png) no-repeat 3px 3px #fff;
     top: 142.5%;
+}
+
+#help {
+    background: url('../img/help.png') no-repeat 1.5px 1.5px #fff;	
+    top: 215%;
+}
+
+#help a
+{
+	display: block;
+	width: 32px !important;
+	height: 32px !important;	
 }
 
 .geoEnabled {
