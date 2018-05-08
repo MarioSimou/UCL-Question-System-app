@@ -67,6 +67,7 @@ body, html {
 }
 
 #help {
+    overflow: hidden;
     background: url('../img/help.png') no-repeat 1.5px 1.5px #fff;	
     top: 215%;
 }
