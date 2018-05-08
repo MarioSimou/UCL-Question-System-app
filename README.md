@@ -58,6 +58,13 @@ The map zoom changes so that a full display of the data is given.
 
 Enables the geolocation of the user and marks his/her location on a map. The accuracy of the geolocation is shown with a buffer around the marked position of the user. Based on the user desire, the geolocation command can be activated or deactivated.
 
+![mari](https://user-images.githubusercontent.com/32243459/39732685-b47daf62-5266-11e8-9f09-24ab1f9ffe78.png)
+
+> Help Command 
+
+Pressing this command, a new site opens with the corresponded documentation of the app
+
+
 **3. More Capabilities**
 
 When a user clicks on a POI, a pop up that contains information related to the clicked point is shown. The pop up contains information such as the department name, the question that is asked for that point, its correct answer, and its geographical coordinates [Fig 1 (A)].
