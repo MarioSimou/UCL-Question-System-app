@@ -213,7 +213,7 @@ var helpDiv = document.createElement('div');
 helpDiv.classList.add('custom');
 helpDiv.id = 'help';
 var a = document.createElement('a');
-a.setAttribute('href', 'http://developer.cege.ucl.ac.uk:31277/ucl-question-system-app-guide.html'); // set the link of the documentation file
+a.setAttribute('href', './ucl-question-system-app-guide.html'); // set the link of the documentation file
 helpDiv.appendChild(a);
 leafletTopLeft.appendChild(helpDiv);
 
