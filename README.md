@@ -91,6 +91,9 @@ Lastly, the map is equipped with a scale bar [(Fig. 3)], which uses metre or foo
 
 Fig. 3
 
+
+[User Guide](https://drive.google.com/open?id=1V6EJQ1cqSZ2B6iOoa8cmVacIKGQak_po)
+
 ---------------------------------------------------------------------------------------------------------------------------
 
 **Sources:**
